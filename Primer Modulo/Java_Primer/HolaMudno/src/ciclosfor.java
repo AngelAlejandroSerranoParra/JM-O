@@ -2,12 +2,22 @@ public class ciclosfor {
 
 
     public static void main(String[] args) {
+        for(int fila=0; fila<=10 ;fila++){
+            for (int columna = 0; columna<=10; columna++){
+                if(columna>fila){
+                    break;
+                }
+                System.out.print("*");
+                System.out.print("");
 
-                //Variable , Condicion, Interacion//
-       for(int contador=0;contador<=10;contador++){
-        System.out.println(contador);
+            }
+            System.out.println();
+
+
+        }
+        
+
        }
 
     }
 
-}
