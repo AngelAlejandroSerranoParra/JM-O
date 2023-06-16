@@ -4,17 +4,22 @@ package Cuenta;
 
 public class CrearCuenta{
     public static void main(String[] args){
-        Cuenta PrimeraCuenta=new Cuenta();
-        PrimeraCuenta.saldo=1000;
-        System.out.println(PrimeraCuenta.saldo);
+      
+        Cuenta primeraCuenta = new Cuenta();
+        primeraCuenta.saldo = 200;
+        System.out.println(primeraCuenta.saldo);
 
-        Cuenta SegundaCuenta = new Cuenta();
-        SegundaCuenta.saldo=500;
+        primeraCuenta.saldo += 100;
+        System.out.println(primeraCuenta.saldo);
 
-        System.out.println(SegundaCuenta.saldo);
-        System.out.println(PrimeraCuenta.saldo);
+        Cuenta segundaCuenta = primeraCuenta;
+        segundaCuenta.saldo = 50;
+
+        System.out.println("primera cuenta tiene " + primeraCuenta.saldo);
+        System.out.println("segunda cuenta tiene " + segundaCuenta.saldo);
 
 
-        
     }
 }
+
+        
