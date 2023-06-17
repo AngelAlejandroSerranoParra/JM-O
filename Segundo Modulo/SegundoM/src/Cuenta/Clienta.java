@@ -6,6 +6,8 @@ public class Clienta {
     private String documento;
     private String telefono;
 
+    
+
     public String getTitular() {
         return titular;
     }
@@ -25,10 +27,6 @@ public class Clienta {
         this.telefono = telefono;
     }
 
-    public String gettitular(){
-        return titular;
-
-    }
     
 }
 
