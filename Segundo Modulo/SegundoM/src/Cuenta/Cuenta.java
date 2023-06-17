@@ -3,10 +3,10 @@ package Cuenta;
 
 class Cuenta{
     double saldo;
-    int agencia;
-    int numero;
+    private int agencia;
+    private int numero;
     Clienta titular;
-    
+
     
     public void depositar (double valor){
         this.saldo=this.saldo+valor;
@@ -33,6 +33,19 @@ class Cuenta{
 
         }
 
+    }
+    public double getSaldo(){
+        return this.saldo;
+
+
+    }
+
+    public void setAgencia(int nuevaAgencia) {
+        if (agencia>0){
+            this.agencia=agencia;
+            
+
+        }
     }
     
 }

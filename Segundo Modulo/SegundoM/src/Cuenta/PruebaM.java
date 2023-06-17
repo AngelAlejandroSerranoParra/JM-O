@@ -8,7 +8,7 @@ public class PruebaM{
         miCuenta.depositar(200);
         System.out.println(miCuenta.saldo);
         miCuenta.retirar(100);
-            System.out.println(miCuenta.saldo);
+            System.out.println(miCuenta.obtenerSaldo());
         Cuenta cuentaDeJimena=new Cuenta();
             cuentaDeJimena.depositar(1000);
             cuentaDeJimena.transferir(400, miCuenta);
