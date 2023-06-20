@@ -1,6 +1,6 @@
 package Banco;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nombre;
     private String documento;
     private double salario;
@@ -30,19 +30,8 @@ public class Funcionario {
         this.salario = salario;
     }
 
+    public abstract double getBonifiacion();
 
-    public double getBonifiacion(){
-        if (this.tipo==0){
-            return this.salario*.01;
-
-        }else if(this.tipo==1){
-            return this.salario;
-        }else{
-            return 0;
-            
-        }
-
-    }
 
     public int getTipo() {
         return tipo;

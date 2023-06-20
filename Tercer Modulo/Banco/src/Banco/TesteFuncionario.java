@@ -2,7 +2,7 @@ package Banco;
 
 public class TesteFuncionario {
     public static void main(String[] args) {
-        Funcionario diego = new Funcionario();
+        Funcionario diego = new contador();
         diego.setDocumento("Diego");
         diego.setDocumento("1234");
         diego.setSalario(200);
