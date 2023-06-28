@@ -1,4 +1,4 @@
-package Banco;
+package bytebank;
 
 
 public abstract class Funcionario {
@@ -44,6 +44,3 @@ public abstract class Funcionario {
 
 
 }
-
-
-

@@ -1,5 +1,4 @@
-package Banco;
-
+package bytebank;
 
 public class SistemaInterno {
 	
@@ -15,6 +14,5 @@ public class SistemaInterno {
 			return false;
 		}
 	}
-    
 
 }

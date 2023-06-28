@@ -1,4 +1,5 @@
-package Banco;
+package bytebank;
+
 public interface Autenticable {
 	
 	public void setClave(String clave);
@@ -6,4 +7,3 @@ public interface Autenticable {
 	public boolean iniciarSesion(String clave);
 
 }
-
